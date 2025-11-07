@@ -1,0 +1,13 @@
+# Variables and Data Types: Define the number of sides and possible successful rolls
+dice_sides = 6        # Integer
+successful_rolls = 6  # (1+6, 2+5, 3+4, 4+3, 5+2, 6+1)
+total_outcomes = dice_sides * dice_sides # Operator: Multiplication
+probability = successful_rolls / total_outcomes # Operator: Division
+
+# Input (Simulated): A question about a specific roll (not user input to stay brief)
+# For the 10-line limit, we'll focus on the calculation and print.
+
+# Print the result
+print(f"Total possible dice rolls: {total_outcomes}")
+print(f"Rolls that equal 7: {successful_rolls}")
+print(f"Probability of rolling a 7: {probability:.3f}")
