@@ -1,0 +1,24 @@
+# --- Input/Given Values ---
+# The total available study time in hours
+total_time_hours = 4
+
+# Percentage of time to dedicate to the hardest subject (60% or 0.60)
+hard_subject_percentage = 0.60
+
+# Percentage of time to dedicate to the easiest subject (40% or 0.40)
+easy_subject_percentage = 0.40
+
+# --- Calculation ---
+# Calculate the time for the hardest subject
+time_for_hard = total_time_hours * hard_subject_percentage
+
+# Calculate the time for the easiest subject
+time_for_easy = total_time_hours * easy_subject_percentage
+
+# --- Output ---
+print(f"Total Study Time: {total_time_hours} hours\n")
+
+print("📝 Study Schedule Split:")
+# Format the output to two decimal places for clarity
+print(f"Time for Hardest Subject (60%): **{time_for_hard:.2f} hours**")
+print(f"Time for Easiest Subject (40%): **{time_for_easy:.2f} hours**")
