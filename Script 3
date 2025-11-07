@@ -1,0 +1,13 @@
+# Variables and Data Types: Define the total and the split
+total_chores = 9        # Integer input (fixed)
+equal_split = 0.50      # Float (50%)
+
+# Operators: Multiplication to calculate the share
+chores_a = total_chores * equal_split
+chores_b = total_chores * equal_split
+
+# Print the final calculated split
+print("--- Chore Assignment for 9 Total Chores ---")
+print(f"Roommate A (50%): {chores_a} chores")
+print(f"Roommate B (50%): {chores_b} chores")
+print("\nNote: Since 9 is odd, the result is 4.5 each.")
